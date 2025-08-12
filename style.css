@@ -1,0 +1,80 @@
+body {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.alldiv {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 140px;
+    box-shadow: 0 0 15px #000;
+}
+
+.yellow {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: inset 0 0 10px #000;
+    color: white;
+}
+.red {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: inset 0 0 10px #000;
+    color: white;
+}
+.green {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: inset 0 0 10px #000;
+    color: white;
+}
+
+.red.active {
+    background-color: red;
+    box-shadow: 0 0 30px red, inset 0 0 10px #500;
+}
+
+.yellow.active {
+    background-color: yellow;
+    color: black;
+    box-shadow: 0 0 30px yellow, inset 0 0 10px #aa0;
+}
+
+.green.active {
+    background-color: limegreen;
+    box-shadow: 0 0 30px limegreen, inset 0 0 10px #050;
+}
